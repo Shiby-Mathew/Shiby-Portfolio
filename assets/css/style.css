@@ -2,16 +2,15 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1.3;
-  background-color: #fefbe9;
+  background-color: #eee9da;
 }
 /*----------header tag --------------*/
 header {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   padding: 2%;
-  background-color: #eddbc7;
+  background-color: #205e61;
   color: black;
 }
 h1 {
@@ -38,7 +37,7 @@ nav a:hover {
 main {
   display: flex;
   flex: 1 1 0;
-  max-width: 96%;
+  max-width: 85%;
   margin: 2% auto;
 }
 
@@ -48,39 +47,62 @@ h2 {
 }
 
 .about-me {
-  padding: 20px;
-  border: 4px solid #1b1b1b;
+  padding: 30px;
+  border: 1px solid #1b1b1b;
 }
 
 .about-para {
-  margin: 2% 0;
+  margin: 1% 0;
   font-size: 110%;
 }
 
-.layout-container {
+.about-me img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.work-layout {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.card-frame {
+.work-frame {
   flex: 0 1 30%;
-  border: 2px solid black;
+  border: 1px solid black;
   min-height: 200px;
   margin-bottom: 45px;
 }
 
-.card-title {
+.work-frame p {
+  margin-left: 20px;
+}
+.work-title {
   position: relative;
   color: red;
   padding-left: 10px;
   font-size: 20px;
-}
-img {
-  border-radius: 50%;
-  width: 150px;
+  text-decoration: underline;
+  margin-bottom: 2%;
 }
 
-footer {
-  background-color: #a7727d;
+.contact {
+  display: flex;
+  justify-content: center;
+
+  background-color: #205e61;
+  padding: 2%;
+  font-size: 20px;
+  border: 1px solid black;
+}
+.info {
+  padding: 1%;
+}
+
+.contact .info {
+  display: none;
+}
+
+.contact:hover .info {
+  display: block;
 }
