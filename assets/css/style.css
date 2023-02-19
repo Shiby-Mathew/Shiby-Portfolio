@@ -113,7 +113,7 @@ h2 {
   min-height: 200px;
   max-height: 200px;
   min-width: 200px;
-  max-width: 612.6px;
+  max-width: 612px;
   flex-basis: 70%;
   display: flex;
   align-items: flex-end;
@@ -143,7 +143,7 @@ h2 {
 .work-frame:first-child {
   min-height: 400px;
   flex-basis: 100%;
-  min-width: 100%;
+  min-width: 99%;
 }
 
 .work-frame div {
