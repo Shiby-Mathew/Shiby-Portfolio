@@ -124,6 +124,22 @@ h2 {
   background-size: cover;
 }
 
+#work1 {
+  background-image: url("../images/work1.jpg");
+}
+
+#work2 {
+  background-image: url("../images/work2.jpg");
+}
+
+#work3 {
+  background-image: url("../images/work3.jpg");
+}
+
+#work4 {
+  background-image: url("../images/work4.jpg");
+}
+
 .work-frame:first-child {
   min-height: 400px;
   flex-basis: 100%;
