@@ -97,7 +97,7 @@ h2 {
   text-align: right;
   padding-right: 15px;
   border-right: 4px solid var(--dark);
-  font-size: 4vw;
+  font-size: 2.5vw;
   line-height: 1.1;
 }
 .page-section > div {
@@ -113,64 +113,66 @@ h2 {
   min-height: 200px;
   max-height: 200px;
   min-width: 200px;
-  max-width: 500px;
+  max-width: 612.6px;
   flex-basis: 70%;
   display: flex;
   align-items: flex-end;
   padding: 0 0 20px 0;
   margin: 5px;
-  background-image: url("../images/pic2.jpg");
+  background-image: url("../images/work2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .work-frame:first-child {
+  background-image: url("../images/pic2.jpg");  
   min-height: 400px;
   flex-basis: 100%;
   min-width: 100%;
 }
 
-/*.work-frame img {
-  width: auto;
-  margin: 20px;
-  padding: 10px;
-}*/
+.work-frame:second-child {
+  background-image: url("../images/work3.jpg");  
+  min-height: 400px;
+  flex-basis: 100%;
+  min-width: 100%;
+}
+
+
 .work-frame div {
   background-color: var(--dark);
   padding: 8px 10px;
 }
 .work-frame h3 {
   font-size: 1.5rem;
-  color: white;
+  color: var(--light);
 }
 
-.contact {
+.info a {
+  text-decoration: none;
+  color: var(--border-color);
+  font-size: 20px;
+  margin-left: 220px;
+  margin-top: 100px;
+}
+
+.footer {
   display: flex;
   justify-content: center;
   background-color: var(--dark);
   padding: 3%;
 }
 
-.info {
-  padding: 1.5%;
-}
-
-.contact .info {
-  display: none;
-}
-
-.contact:hover .info {
-  display: block;
-  position: absolute;
-  margin-left: 85px;
-}
 /*------------media query-----------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 468px) {
   header,
-  main,
-  footer {
+  main {
     flex-direction: column;
   }
-  .work-frame {
+  /* .work-frame {
     width: 100%;
+  } */
+  .info a {
+    font-size: 15px;
   }
 }
