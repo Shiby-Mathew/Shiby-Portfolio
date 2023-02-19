@@ -119,25 +119,16 @@ h2 {
   align-items: flex-end;
   padding: 0 0 20px 0;
   margin: 5px;
-  background-image: url("../images/work2.jpg");
+  background-image: url("../images/pic2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .work-frame:first-child {
-  background-image: url("../images/pic2.jpg");  
   min-height: 400px;
   flex-basis: 100%;
   min-width: 100%;
 }
-
-.work-frame:second-child {
-  background-image: url("../images/work3.jpg");  
-  min-height: 400px;
-  flex-basis: 100%;
-  min-width: 100%;
-}
-
 
 .work-frame div {
   background-color: var(--dark);
