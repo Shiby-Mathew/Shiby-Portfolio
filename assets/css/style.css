@@ -116,21 +116,21 @@ h2 {
 .work-frame {
   border: 1px solid var(--border-color);
   min-height: 200px;
-  max-height: 200px;
-  min-width: 200px;
-  max-width: 605px;
-  flex-basis: 70%;
+  max-height: 100px;
+  min-width: 100px;
+  max-width: 590px;
+  flex-basis: 100%;
   display: flex;
   align-items: flex-end;
-  padding: 0 0 20px 0;
-  margin: 5px;
+  padding: 0 0 10px 0;
+  margin: 2px;
   background-image: url("../images/pic2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #work1 {
-  background-image: url("../images/work1.jpg");
+  background-image: url("../images/work.png");
 }
 
 #work2 {
@@ -148,7 +148,7 @@ h2 {
 .work-frame:first-child {
   min-height: 400px;
   flex-basis: 100%;
-  min-width: 98%;
+  min-width: 95%;
 }
 
 .work-frame div {
@@ -164,7 +164,7 @@ h2 {
   /* text-decoration: ; */
   color: var(--border-color);
   font-size: 20px;
-  margin-left: 220px;
+  margin-left: 150px;
   margin-top: 100px;
 }
 
@@ -176,7 +176,7 @@ h2 {
 }
 
 /*------------media query-----------*/
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   header,
   main {
     flex-direction: column;
@@ -189,4 +189,4 @@ h2 {
   footer {
     flex-direction: column;
   }
-}
+} */
