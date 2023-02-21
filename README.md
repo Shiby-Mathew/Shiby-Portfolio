@@ -2,7 +2,7 @@
 
 ```
 The link for my deployed wesite can viewed here
-
+https://shiby-mathew.github.io/Shiby-Portfolio/
 
 ```
 
@@ -39,24 +39,12 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## Getting Started
-
-```
-
-I have changed the title element and added more semantic elements rather than divs.
-I have checked all the links are working and fixed
-I have added alt attribute to all img tags.
-Created some new classes for CSS file and added those in HTML page.
-Rearranged the CSS file to remove duplications.
-
-```
-
 ## Code Snippet
 
-![The Git bash code .](./assets/images/codeSnippet.png)
+![The Git bash code .](./assets/images/code.png)
 
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/ScreenShot.png)
+![The Portfolio webpage includes a header,navigation bar,Project links and contact info](./assets/images/ScreenShot.png)
