@@ -83,6 +83,7 @@ h2 {
   text-decoration: underline;
   margin-bottom: 2%;
 }
+/*-----page-section------- */
 
 .page-section {
   margin: 25px 0;
@@ -106,7 +107,7 @@ h2 {
 .page-section > div {
   flex: 0 0 77%;
 }
-
+/*-------work-container-------- */
 .work-container {
   display: flex;
   flex-wrap: wrap;
@@ -129,6 +130,7 @@ h2 {
   background-size: cover;
 }
 
+/* -----------url for each projects----------- */
 #work1 {
   background-image: url("../images/work.png");
 }
@@ -145,6 +147,7 @@ h2 {
   background-image: url("../images/work4.jpg");
 }
 
+/* -------First image size is bigger than others------ */
 .work-frame:first-child {
   min-height: 400px;
   flex-basis: 100%;
@@ -155,13 +158,14 @@ h2 {
   background-color: var(--dark);
   padding: 8px 10px;
 }
+
 .work-frame h3 {
   font-size: 1.5rem;
   color: var(--light);
 }
 
+/*-------- contact us------------- */
 .info a {
-  /* text-decoration: ; */
   color: var(--border-color);
   font-size: 20px;
   margin-left: 150px;
@@ -175,18 +179,31 @@ h2 {
   padding: 3%;
 }
 
-/*------------media query-----------*/
-/* @media screen and (max-width: 992px) {
+/*------------media query for 992px-----------*/
+@media screen and (max-width: 992px) {
+  main {
+    flex-direction: column;
+  }
+}
+/*------------media query for 768px-----------*/
+@media screen and (max-width: 768px) {
   header,
   main {
     flex-direction: column;
   }
 }
-
-@media screen and (max-width: 468px) {
+/*------------media query for 576px-----------*/
+@media screen and (max-width: 576px) {
   header,
   main,
   footer {
     flex-direction: column;
   }
-} */
+}
+
+/*------------media query-----------*/
+@media screen and (min-width: 992px) {
+  work-container {
+    flex-direction: row;
+  }
+}
