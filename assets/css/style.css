@@ -119,7 +119,7 @@ h2 {
   min-height: 200px;
   max-height: 100px;
   min-width: 100px;
-  max-width: 590px;
+  max-width: 426px;
   flex-basis: 100%;
   display: flex;
   align-items: flex-end;
@@ -151,7 +151,7 @@ h2 {
 .work-frame:first-child {
   min-height: 400px;
   flex-basis: 100%;
-  min-width: 95%;
+  min-width: 97%;
 }
 
 .work-frame div {
@@ -188,8 +188,12 @@ h2 {
 /*------------media query for 768px-----------*/
 @media screen and (max-width: 768px) {
   header,
-  main {
+  main,
+  footer {
     flex-direction: column;
+  }
+  .footer {
+    align-items: center;
   }
 }
 /*------------media query for 576px-----------*/
@@ -199,11 +203,7 @@ h2 {
   footer {
     flex-direction: column;
   }
-}
-
-/*------------media query-----------*/
-@media screen and (min-width: 992px) {
-  work-container {
-    flex-direction: row;
+  .footer {
+    align-items: center;
   }
 }
